@@ -1,21 +1,21 @@
 # SETS
-#Sets are unordered 
-#sets have unique values. Values in it do not repeat themselves
+# Sets are unordered
+# sets have unique values. Values in it do not repeat themselves
 
-myset = set();
+myset = set()
 
-#add() is udes to add elements to the set
+# add() is udes to add elements to the set
 
-myset.add(1);
-myset.add(2);
-myset.add(3);
+myset.add(1)
+myset.add(2)
+myset.add(3)
 
-print(myset);
+print(myset)
 
 # BOOLEANS
 
-#booleans are operators which will show true or false
+# booleans are operators which will show true or false
 
-print(type(True));
+print(type(True))
 
-print(1 > 2);
+print(1 > 2)

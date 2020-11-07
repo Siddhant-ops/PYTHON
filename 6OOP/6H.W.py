@@ -18,7 +18,7 @@
 #   def slope(self):
 #       pass
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 print("Distance and Slope of a line")
 
 
@@ -28,16 +28,12 @@ class Line:
         self.coor2 = coor2
 
     def distance(self):
-        self.dist = (
-            ((self.coor2[0] - self.coor1[0]) ** 2)
-            + ((self.coor2[1] - self.coor1[1]) ** 2)
-        ) ** (1 / 2)
+        self.dist = (((self.coor2[0] - self.coor1[0]) ** 2) + ((self.coor2[1] - self.coor1[1]) ** 2)) ** (1 / 2)
         return f"Distance of the line is {self.dist}"
 
     def slope(self):
 
-        self.slop = (self.coor2[1] - self.coor1[1]) / \
-            (self.coor2[0] - self.coor1[0])
+        self.slop = (self.coor2[1] - self.coor1[1]) / (self.coor2[0] - self.coor1[0])
         return f"Slope of the line is {self.slop}"
 
 
@@ -63,7 +59,7 @@ print(line.slope())
 #    def surface_area(self):
 #        pass
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 print("Volume and Surface Area of a Cylinder")
 
 
@@ -80,9 +76,7 @@ class Cylinder:
         return f"Volume of a Cylinder is {self.vol}"
 
     def surface_area(self):
-        self.sa = (2 * Cylinder.pi * self.radius * self.height) + (
-            2 * Cylinder.pi * (self.radius) ** 2
-        )
+        self.sa = (2 * Cylinder.pi * self.radius * self.height) + (2 * Cylinder.pi * (self.radius) ** 2)
         return f"Surface Area of a Cylinder is {self.sa}"
 
 

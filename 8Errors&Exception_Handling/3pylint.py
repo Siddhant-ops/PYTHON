@@ -5,24 +5,24 @@
 # repoting includes and unnecessary semicolon, bad-white space, lines duplicated and no. of methods,
 # functions, variables declared etc
 
-#installing pylint :
+# installing pylint :
 #   pip install pylint
 
 # for eg lets try to evaluate the following code in cmd
 
 # I'm making an error intentionally to see what happens in a report
 
-a = 2;
-b = 12;
+a = 2
+b = 12
 
-print(a);
-print(B);
+print(a)
+print(B)
 
 # in order to run pylint u have to run the following code:
 
 # ( 3pylint.py -r y ) ===>> { -r y } is necessary
 
-# (base) C:\siddhant work\VS CODE\PYTHON\8Errors&Exception_Handling>pylint 3pylint.py -r y 
+# (base) C:\siddhant work\VS CODE\PYTHON\8Errors&Exception_Handling>pylint 3pylint.py -r y
 
 # after running this code u'll get the following report
 
@@ -37,15 +37,15 @@ print(B);
 # 3pylint.py:15:0: C0103: Constant name "a" doesn't conform to UPPER_CASE naming style (invalid-name)
 # 3pylint.py:16:0: C0103: Constant name "b" doesn't conform to UPPER_CASE naming style (invalid-name)
 # 3pylint.py:19:6: E0602: Undefined variable 'B' (undefined-variable)
-# 
-# 
+#
+#
 # Report
 # ======
 # 4 statements analysed.
-# 
+#
 # Statistics by type
 # ------------------
-# 
+#
 # +---------+-------+-----------+-----------+------------+---------+
 # |type     |number |old number |difference |%documented |%badname |
 # +=========+=======+===========+===========+============+=========+
@@ -57,12 +57,12 @@ print(B);
 # +---------+-------+-----------+-----------+------------+---------+
 # |function |0      |NC         |NC         |0           |0        |
 # +---------+-------+-----------+-----------+------------+---------+
-# 
-# 
-# 
+#
+#
+#
 # Raw metrics
 # -----------
-# 
+#
 # +----------+-------+------+---------+-----------+
 # |type      |number |%     |previous |difference |
 # +==========+=======+======+=========+===========+
@@ -74,12 +74,12 @@ print(B);
 # +----------+-------+------+---------+-----------+
 # |empty     |8      |38.10 |NC       |NC         |
 # +----------+-------+------+---------+-----------+
-# 
-# 
-# 
+#
+#
+#
 # Duplication
 # -----------
-# 
+#
 # +-------------------------+------+---------+-----------+
 # |                         |now   |previous |difference |
 # +=========================+======+=========+===========+
@@ -87,12 +87,12 @@ print(B);
 # +-------------------------+------+---------+-----------+
 # |percent duplicated lines |0.000 |NC       |NC         |
 # +-------------------------+------+---------+-----------+
-# 
-# 
-# 
+#
+#
+#
 # Messages by category
 # --------------------
-# 
+#
 # +-----------+-------+---------+-----------+
 # |type       |number |previous |difference |
 # +===========+=======+=========+===========+
@@ -104,12 +104,12 @@ print(B);
 # +-----------+-------+---------+-----------+
 # |error      |1      |NC       |NC         |
 # +-----------+-------+---------+-----------+
-# 
-# 
-# 
+#
+#
+#
 # Messages
 # --------
-# 
+#
 # +-------------------------+------------+
 # |message id               |occurrences |
 # +=========================+============+
@@ -123,9 +123,9 @@ print(B);
 # +-------------------------+------------+
 # |missing-final-newline    |1           |
 # +-------------------------+------------+
-# 
-# 
-# 
-# 
+#
+#
+#
+#
 # ----------------------------------------------------------------------
 # Your code has been rated at -25.00/10 (previous run: -25.00/10, +0.00)

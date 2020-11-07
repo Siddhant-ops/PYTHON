@@ -6,12 +6,12 @@
 # syntax of if
 
 # if some_condition:
-# execute some code;
+# execute some code
 
 # syntax of if/else
 
 # if some_condition:
-# execute some code;
+# execute some code
 
 # else:
 # do something else
@@ -20,7 +20,7 @@
 # syntax of elif
 
 # if some_condition:
-# execute some code;
+# execute some code
 
 # elif some_other_condition:
 # do something different

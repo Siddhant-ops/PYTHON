@@ -10,7 +10,7 @@
   // 	"scope": "javascript,typescript",
   // 	"prefix": "log",
   // 	"body": [
-  // 		"console.log('$1');",
+  // 		"console.log('$1')",
   // 		"$2"
   // 	],
   // 	"description": "Log output to console"
@@ -19,7 +19,10 @@
   "opline": {
     "prefix": ["op"],
     "body": [
-      "print('================================================================================================')"
+      "",
+      "print('\\n================================================================================================\\n')",
+      "",
+      ""
     ],
     "description": "My very own output seperator"
   }

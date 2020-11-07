@@ -10,7 +10,7 @@ print(result)
 
 
 # new
-print("================================================================================================")
+print("\n================================================================================================\n")
 
 # we can also pass on multiple arguments
 
@@ -24,10 +24,10 @@ print(result)
 
 
 # new
-print("================================================================================================")
+print("\n================================================================================================\n")
 
-# when we enter '*args' in the arguments of a function, while calling the function we can enter as many parameters we want and they will be accepted as a tuple;
-# now this tuple will be accepted in the sum();
+# when we enter '*args' in the arguments of a function, while calling the function we can enter as many parameters we want and they will be accepted as a tuple
+# now this tuple will be accepted in the sum()
 
 
 def myfunc(*args):
@@ -38,9 +38,9 @@ result = myfunc(70, 30)
 print(result)
 
 # new
-print("================================================================================================")
+print("\n================================================================================================\n")
 
-# we don't have to compulsarily write *args instead of args we can write any word;
+# we don't have to compulsarily write *args instead of args we can write any word
 
 
 def myfunc(*spam):
@@ -51,7 +51,7 @@ result = myfunc(93, 29)
 print(result)
 
 # new
-print("================================================================================================")
+print("\n================================================================================================\n")
 
 
 def myfunc(**kwargs):
@@ -65,7 +65,7 @@ def myfunc(**kwargs):
 myfunc(fruit="apple", veggi="tomato")
 
 # new
-print("================================================================================================")
+print("\n================================================================================================\n")
 
 # accepting both args and kwargs
 

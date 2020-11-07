@@ -6,7 +6,7 @@
 # lesser_of_two_evens(2,4) --> 2
 # lesser_of_two_evens(2,5) --> 5
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 print("lesser of two evens")
 
 
@@ -31,7 +31,7 @@ print(lesser_of_two_evens(6, 5))
 # animal_crackers('Levelheaded Llama') --> True
 # animal_crackers('Crazy Kangaroo') --> False
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 print("animal crackers")
 
 
@@ -55,7 +55,7 @@ print(animal_cracker("Levelhead Llama"))
 # makes_twenty(12,8) --> True
 # makes_twenty(2,3) --> False
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 print("makes twenty")
 
 
@@ -76,13 +76,13 @@ print(makes_twenty(2, 3))
 # old_macdonald('macdonald') --> MacDonald
 # Note: 'macdonald'.capitalize() returns 'Macdonald'
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 print("old macdonald")
 
 
 def old_macdonald(name):
     # here we split the first three letters int the keyword 'first'
-    # and in the keyword 'second' we store the values from 3 onwards;
+    # and in the keyword 'second' we store the values from 3 onwards
     first = name[:3]
     second = name[3:]
     # in keyword 'result' we store the concatenation of the capitalized keywords 'first' & 'second'
@@ -109,7 +109,7 @@ print(old_macdonald("macdonald"))
 # >>> " ".join(['Hello','world'])
 # >>> "Hello world"
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 print("master yoda")
 
 
@@ -140,7 +140,7 @@ print(master_yoda("I am home"))
 
 # NOTE: abs(num) returns the absolute value of a number
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 print("almost there")
 
 
@@ -167,7 +167,7 @@ print(almost_there(209))
 # has_33([1, 3, 1, 3]) → False
 # has_33([3, 1, 3]) → False
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 print("almost there")
 
 
@@ -191,7 +191,7 @@ print(has_33([3, 1, 3]))
 # paper_doll('Hello') --> 'HHHeeellllllooo'
 # paper_doll('Mississippi') --> 'MMMiiissssssiiippppppiii'
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 print("paper_Doll")
 
 
@@ -202,8 +202,8 @@ def paper_doll(text):
     for char in text:
         # now we take the character and we multiply it by 3
         # eg. character is l
-        #       char*3  ==> lll;
-        # and now ans += char*3  ===> ans = ans + (char + char + char);
+        #       char*3  ==> lll
+        # and now ans += char*3  ===> ans = ans + (char + char + char)
         # for every char this loop continues until it break
         ans += char * 3
     return ans
@@ -226,7 +226,7 @@ print(paper_doll("Hello"))
 # blackjack(9,9,9) --> 'BUST'
 # blackjack(9,9,11) --> 19
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 print("black_jack")
 
 
@@ -266,7 +266,7 @@ print(blackjack(9, 9, 11))
 # summer_69([4, 5, 6, 7, 8, 9]) --> 9
 # summer_69([2, 1, 6, 9, 11]) --> 14
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 print("summer_69")
 
 
@@ -285,7 +285,7 @@ def summer_69(arr):
         while add:
             # if number is not equal to 6 then code block is executed
             if num != 6:
-                # we take that num and add it to totalsum, which is initially 0;
+                # we take that num and add it to totalsum, which is initially 0
                 totalsum += num
                 break
             else:
@@ -313,7 +313,7 @@ print(summer_69([2, 1, 6, 9, 11]))
 # spy_game([1,0,2,4,0,5,7]) --> True
 # spy_game([1,7,2,0,4,5,0]) --> False
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 print("spy_game")
 
 
@@ -404,7 +404,7 @@ print(prime_count(100))
 # and mapping the alphabet to specific 5-line combinations of patterns.
 # For purposes of this exercise, it's ok if your dictionary stops at "E".
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 print("print_big")
 
 

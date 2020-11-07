@@ -1,22 +1,35 @@
-a = "Hey there";
-#concatenation uses + 
-print(a + " Beautiful");
+print("\n================================================================================================\n")
 
-letter = "z";
-#multiplication of letters
-print(letter * 10);
+a = "Hey there"
+# concatenation uses +
+print(a + " Beautiful")
 
-#properties
-b = a.upper();
-print(b);
+print("\n================================================================================================\n")
 
-c = a.lower();
-print(c);
+letter = "z"
+# multiplication of letters
+print(letter * 10)
 
-d = a.split();
-print(d);
+print("\n================================================================================================\n")
 
-a = "Hey see its an elephant";
+# properties
+b = a.upper()
+print(b)
 
-e = a.split("e");
-print(e);
+print("\n================================================================================================\n")
+
+c = a.lower()
+print(c)
+
+print("\n================================================================================================\n")
+
+d = a.split()
+print(d)
+
+print("\n================================================================================================\n")
+
+a = "Hey see its an elephant"
+
+e = a.split("e")
+print(e)
+

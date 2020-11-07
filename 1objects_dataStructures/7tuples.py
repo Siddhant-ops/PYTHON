@@ -1,35 +1,52 @@
-#tuples are similar to lists
-#tuples are immutable
+# tuples are similar to lists
+# tuples are immutable
 
-t = (1,2,3,4,5,6,7,8);
-print(t);
+t = (1, 2, 3, 4, 5, 6, 7, 8)
+print(t)
 
-#data type of tuple
-print(type(t));
+print("\n==================================================\n")
 
-#tuples can contain both strings and numbers
-my_tuple = ("one", 2,"three",2,3,4,2,2);
+# data type of tuple
+print(type(t))
+
+print("\n================================================================================================\n")
+
+# tuples can contain both strings and numbers
+my_tuple = ("one", 2, "three", 2, 3, 4, 2, 2)
 print(my_tuple)
 
-#slicing and indexingcan also be done in tuple
+print("\n================================================================================================\n")
 
-print(my_tuple[0]);
-print(t[0:]);
-print(t[1:5:2]);
+# slicing and indexing can also be done in tuple
 
-#count() method will count the no. of element in the tuple
-print(my_tuple.count(2));
+print(my_tuple[0])
 
-#index() method will show the first index no. of an element
-print(my_tuple.index(2));
+print("\n==================================================\n")
+
+print(t[0:])
+
+print("\n==================================================\n")
+
+print(t[1:5:2])
+
+print("\n==================================================\n")
 
 
-try:
-    # IF YOU WANT TO ATTEMPT THIS CODE
-    # MAY HAVE AN ERROR
-    result = 10 + 10;
-except:
-    print("Hey it looks like u aren't adding correctly");
-else:
-    print("Yayy u've added successfully")
-    print(result);
+# count() method will count the no. of particular element in the tuple
+print(my_tuple.count(2))
+
+print("\n==================================================\n")
+
+
+# index() method will show the first index no. of an element
+print(my_tuple.index(2))
+
+print("\n================================================================================================\n")
+
+
+
+def ask(age, skill="java"):
+    name = input("Enter ur name : ")
+    print(f"name is {name} and {age} with skill is {skill}")
+
+ask(16)

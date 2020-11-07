@@ -5,11 +5,12 @@
 
 # they are mainly used for opening and reading files and folders
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 
 # Now we will create a new txt file and set it's mode to write
 
-# creating a new txt file without using with statement
+# creating a new txt file without using w62
+# ith statement
 
 # f = open('practice.txt', 'w+')
 # f.write("This is a text string")
@@ -21,7 +22,7 @@ with open("practice.txt", "w+") as f:
     f.write("This is practice string")
     f.close()
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 
 # now we will start with OS modules
 
@@ -31,19 +32,19 @@ import os
 
 print(os.getcwd())
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 
 # This will list all the directories in the cwd and it will print it in list
 
 print(os.listdir())
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 
 # Or we can pass an arg (path name) in listdir and it will print it in list
 
-print(os.listdir("C:\siddhant work\VS CODE"))
+print(os.listdir("D:\Main_Folders\siddhant work\VS CODE"))
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 
 # now we will move files around directories with shutil module
 
@@ -51,13 +52,17 @@ import shutil
 
 # this method will move my practice txt file to my another folder
 
-shutil.move("C:\siddhant work\VS CODE\PYTHON\practice.txt", "C:\siddhant work\VS CODE\python_C\practice.txt")
+shutil.move(
+    "D:\Main_Folders\siddhant work\VS CODE\PYTHON\practice.txt", "D:\Main_Folders\siddhant work\VS CODE\python_C\practice.txt"
+)
 
-print("==================================================")
+print("\n==================================================\n")
 
 # since we have use of practice.txt we would shift it to it's original path
 
-shutil.move("C:\siddhant work\VS CODE\python_C\practice.txt", "C:\siddhant work\VS CODE\PYTHON\practice.txt")
+shutil.move(
+    "D:\Main_Folders\siddhant work\VS CODE\python_C\practice.txt", "D:\Main_Folders\siddhant work\VS CODE\PYTHON\practice.txt"
+)
 
 # Now there are 3 ways to delete a file or a folder but all of them are very dangerous
 
@@ -73,21 +78,21 @@ shutil.move("C:\siddhant work\VS CODE\python_C\practice.txt", "C:\siddhant work\
 
 import send2trash
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 
 print(os.listdir())
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 
 # now we will use send2trash to delete a file
 
 send2trash.send2trash("practice.txt")
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 
 print(os.listdir())
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 
 # os module has a way of listing all the dirs given in a particular path
 
@@ -95,7 +100,7 @@ file_path = os.getcwd()
 
 # or u can have fun in C drive by inserting it in file path
 
-file_path_2 = "C:\\"
+file_path_2 = "D:\\"
 
 for folder, sub_folder, files in os.walk(file_path):
     print(f"Currently looking in {folder}")

@@ -1,4 +1,4 @@
-print("================================================================================================")
+print("\n================================================================================================\n")
 
 # We already know we can search for substring within a larger string with the in opearor
 
@@ -34,7 +34,7 @@ text = "The agent's phone number is +91-1234567890. Call soon!"
 
 print("phone" in text)
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 
 # now let's import re library
 
@@ -50,7 +50,7 @@ print(re.search(pattern, text))
 
 # It returns the result in an object and also return where in the string the object is
 
-print("==================================================")
+print("\n==================================================\n")
 
 re_search = re.search(pattern, text)
 
@@ -58,19 +58,19 @@ re_search = re.search(pattern, text)
 
 print(re_search.span())
 
-print("==================================================")
+print("\n==================================================\n")
 
 # start method will display the starting index of the search_string
 
 print(re_search.start())
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 
 # end method will display the ending index of the search_string
 
 print(re_search.end())
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 
 # the search function only shows the first appearance of the search_string
 
@@ -88,7 +88,7 @@ match = re.search("phone", text)
 
 print(match)
 
-print("==================================================")
+print("\n==================================================\n")
 
 # to find all the matches in the text string we can use findall function to return a list of search_string
 
@@ -96,11 +96,11 @@ matches = re.findall("phone", text)
 
 print(matches)
 
-print("==================================================")
+print("\n==================================================\n")
 
 print(len(matches))
 
-print("==================================================")
+print("\n==================================================\n")
 
 # we can use the finditer function to iter our search_string which would reveals all the starting and ending indexes
 

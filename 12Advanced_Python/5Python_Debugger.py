@@ -18,7 +18,7 @@ print(result_1)
 
 # Now let's import debugger
 
-import pdb;
+import pdb
 
 x = [1, 2, 3]
 y = 2

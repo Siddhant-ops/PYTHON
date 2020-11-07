@@ -2,7 +2,7 @@
 
 # ========================================================================
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 
 
 class Animal:
@@ -13,7 +13,7 @@ class Animal:
         print("I am animal")
 
     def eat(self):
-        print("I am eating")k
+        print("I am eating")
 
 
 class Dog(Animal):
@@ -41,7 +41,7 @@ mydog.bark()
 
 # Polymorphism
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 
 
 class Dog:
@@ -70,7 +70,7 @@ print(felix.speak())
 
 # or we can use for loop
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 
 for pet in [niko, felix]:
     print(type(pet))
@@ -82,7 +82,7 @@ for pet in [niko, felix]:
 
 # or we can create and use another function
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 
 
 def pet_speak(pet):
@@ -99,7 +99,7 @@ pet_speak(felix)
 # It is never meant to be substantiated, Never expect to create an instance of this class
 # it is only designed to serve as a base class
 
-print("================================================================================================")
+print("\n================================================================================================\n")
 
 
 class Animal:
@@ -111,7 +111,7 @@ class Animal:
 
 
 # this will give you an error because abstract class is only meant to be a base class
-# myanimal = Animal("Fred");
+# myanimal = Animal("Fred")
 
 
 class Dog(Animal):
