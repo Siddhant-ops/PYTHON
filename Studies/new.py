@@ -31,3 +31,4 @@
 
 # hideturtle()
 
+print("new")
