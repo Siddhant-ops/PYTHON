@@ -30,5 +30,3 @@
 #         time.sleep(1)
 
 # hideturtle()
-
-print("new")
