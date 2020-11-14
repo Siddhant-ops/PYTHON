@@ -1,1 +1,18 @@
-{"clg": {"faculty": {"name": ["Mrunali", "Riddhi", "Devang", "Prashant"], "roll": [1, 2, 3, 4]}}}
+{
+    "2020": {
+        "Top Games": {
+            "name": [
+                "Warzone",
+                "Little Hope",
+                "Call fo Duty Black Ops Cold War",
+                "SpiderMan : Miles Morales"
+            ],
+            "Price": [
+                "Free",
+                1368,
+                6708.41,
+                3985.00
+            ]
+        }
+    }
+}
