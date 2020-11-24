@@ -11,3 +11,13 @@ print("dumps")
 with open("new_json_2b_py.json", "w") as f:
     json.dump(mydict, f)
 print("dump")
+
+
+
+
+# load ==> directly loading from file
+
+
+
+
+# loads ==> indirectly loading from file content ==> python object ==> str ===> load(s)
