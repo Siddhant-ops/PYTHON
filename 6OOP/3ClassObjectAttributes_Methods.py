@@ -79,3 +79,23 @@ print(mycircle.radius)
 print(mycircle.get_circumference())
 print(mycircle.area)
 
+
+print("\n==================================================\n")
+
+
+total = {}
+
+
+def insert(items):
+    print(items)
+    if items in total:
+        print("is in")
+        total[items] += 1
+    else:
+        total[items] = 1
+
+
+insert("Apple")
+insert("Ball")
+print(total)
+
