@@ -1,3 +1,5 @@
+# generate following structure in python using list.
+
 Dollar = "$"
 
 num = int(input("Enter the number of column : "))

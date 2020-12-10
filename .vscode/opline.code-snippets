@@ -17,6 +17,7 @@
   // }
 
   "opline": {
+    "scope": "python",
     "prefix": ["op"],
     "body": [
       "",

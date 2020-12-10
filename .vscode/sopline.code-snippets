@@ -13,6 +13,7 @@
   // 	"description": "Log output to console"
   // }
   "sopline": {
+    "scope": "python",
     "prefix": ["sop"],
     "body": [
       "",

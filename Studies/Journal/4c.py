@@ -1,3 +1,7 @@
+# Write a program which accepts two lists and prints those elements which are
+# common.
+
+
 def compare_lists(l1, l2):
     common_l = []
     for i in l1:
