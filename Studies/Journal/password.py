@@ -1,0 +1,2 @@
+def passreturn():
+    return "toor"
