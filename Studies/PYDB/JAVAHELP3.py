@@ -77,9 +77,9 @@ try:
                                     #     f"values('{year}-0{month}-0{day}','{dp}','{ap}','{deptTime}', '{arrTime}', {flightNo}, '{randomAirline}','{fare}', {seats}, '{randomSeatClass}', '{duration}')"
                                     # )
 
-                                    query = f"Insert into rawflight3(DEPT_DATE,ORIGIN ,DESTINATION,DEPT_TIME,ARR_TIME ,FLIGHT_NO,AIRLINE ,TOTAL_FARE ,SEATS_AVAIL ,SEATING_CLASS,DURATION) values('{year}-0{month}-0{day}','{dp}','{ap}','{deptTime}', '{arrTime}', {flightNo}, '{randomAirline}','{fare}', {seats}, '{randomSeatClass}', '{duration}')"
+                                    # query = f"Insert into rawflight3(DEPT_DATE,ORIGIN ,DESTINATION,DEPT_TIME,ARR_TIME ,FLIGHT_NO,AIRLINE ,TOTAL_FARE ,SEATS_AVAIL ,SEATING_CLASS,DURATION) values('{year}-0{month}-0{day}','{dp}','{ap}','{deptTime}', '{arrTime}', {flightNo}, '{randomAirline}','{fare}', {seats}, '{randomSeatClass}', '{duration}')"
 
-                                    cursor.execute(query)
+                                    # cursor.execute(query)
 
                                     i += 1
 
@@ -126,9 +126,9 @@ try:
                                         f"values('{year}-0{month}-{day}','{dp}','{ap}','{deptTime}', '{arrTime}', {flightNo}, '{randomAirline}','{fare}', {seats}, '{randomSeatClass}', '{duration}')"
                                     )
 
-                                    query = f"Insert into rawflight3(DEPT_DATE,ORIGIN ,DESTINATION,DEPT_TIME,ARR_TIME ,FLIGHT_NO,AIRLINE ,TOTAL_FARE ,SEATS_AVAIL ,SEATING_CLASS,DURATION) values('{year}-0{month}-{day}','{dp}','{ap}','{deptTime}', '{arrTime}', {flightNo}, '{randomAirline}','{fare}', {seats}, '{randomSeatClass}', '{duration}')"
+                                    # query = f"Insert into rawflight3(DEPT_DATE,ORIGIN ,DESTINATION,DEPT_TIME,ARR_TIME ,FLIGHT_NO,AIRLINE ,TOTAL_FARE ,SEATS_AVAIL ,SEATING_CLASS,DURATION) values('{year}-0{month}-{day}','{dp}','{ap}','{deptTime}', '{arrTime}', {flightNo}, '{randomAirline}','{fare}', {seats}, '{randomSeatClass}', '{duration}')"
 
-                                    cursor.execute(query)
+                                    # cursor.execute(query)
 
                                     i += 1
                                     # print(f"Date is : {year}-0{month}-0{day}  Flight No. is {flightNo}")
@@ -174,9 +174,9 @@ try:
                                     f"values('{year}-{month}-{day}','{dp}','{ap}','{deptTime}', '{arrTime}', {flightNo}, '{randomAirline}','{fare}', {seats}, '{randomSeatClass}', '{duration}')"
                                 )
 
-                                query = f"Insert into rawflight3(DEPT_DATE,ORIGIN ,DESTINATION,DEPT_TIME,ARR_TIME ,FLIGHT_NO,AIRLINE ,TOTAL_FARE ,SEATS_AVAIL ,SEATING_CLASS,DURATION) values('{year}-{month}-{day}','{dp}','{ap}','{deptTime}', '{arrTime}', {flightNo}, '{randomAirline}','{fare}', {seats}, '{randomSeatClass}', '{duration}')"
+                                # query = f"Insert into rawflight3(DEPT_DATE,ORIGIN ,DESTINATION,DEPT_TIME,ARR_TIME ,FLIGHT_NO,AIRLINE ,TOTAL_FARE ,SEATS_AVAIL ,SEATING_CLASS,DURATION) values('{year}-{month}-{day}','{dp}','{ap}','{deptTime}', '{arrTime}', {flightNo}, '{randomAirline}','{fare}', {seats}, '{randomSeatClass}', '{duration}')"
 
-                                cursor.execute(query)
+                                # cursor.execute(query)
 
                                 i += 1
 
