@@ -1,4 +1,7 @@
 {
-    "python.pythonPath": "D:\\Users\\SIDDHANT\\anaconda3\\python.exe",
-    "editor.wordWrap": "on"
+  "editor.wordWrap": "on",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.autoSearchPaths": true,
+  "python.formatting.provider": "autopep8",
+  "python.analysis.typeCheckingMode": "basic"
 }

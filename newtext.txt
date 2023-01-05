@@ -1,3 +1,0 @@
-This is first line
-this is second append line
-This is third append line

@@ -55,9 +55,9 @@ elif habit == "dancing":
 else:
     print("Naah, I don't like anything else, I'm too lazy for other stuff")
 
-name = "Siddhant"
+name = "John"
 
-if name == "Siddhant":
+if name == "John":
     print("Yay, I'm the Hero")
 elif name == "Roy":
     print("No, I'm not so cool")

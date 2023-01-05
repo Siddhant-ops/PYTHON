@@ -22,7 +22,7 @@ print(B)
 
 # ( 3pylint.py -r y ) ===>> { -r y } is necessary
 
-# (base) C:\siddhant work\VS CODE\PYTHON\8Errors&Exception_Handling>pylint 3pylint.py -r y
+# 3pylint.py -r y
 
 # after running this code u'll get the following report
 

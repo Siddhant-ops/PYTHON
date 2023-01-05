@@ -137,7 +137,7 @@ print("\n=======================================================================
 a = input("Whatis your name ? \n")
 if a == "Lucifer":
     print("Devil knows")
-elif a == "siddhant":
-    print("Your birthdate is 12/03/2002")
+elif a == "John":
+    print("Your birthdate is dd/mm/yyyy")
 else:
     print("wrong name")

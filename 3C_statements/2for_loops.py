@@ -6,7 +6,7 @@
 # for item_name in my_iterable:
 # print(item_name)
 
-name = "Siddhant"
+name = "John"
 
 for i in name:
     print(i)
@@ -83,12 +83,12 @@ print("\n=======================================================================
 
 # new
 
-mystring = "Siddhant Dalvi"
+mystring = "John"
 
 for letter in mystring:
     print(letter)
 
-# this will print Siddhant Dalvi Letter by letter in new line and it will include the blank space also
+# this will print John Letter by letter in new line and it will include the blank space also
 # S
 # i
 # d
@@ -108,7 +108,7 @@ print("\n=======================================================================
 
 # Advanced people in python, when they want to iterate a thing they simply use a _ (underscore) as a variable_name/item name
 
-for _ in "Siddhant":
+for _ in "John":
     print("Cool!")
 
 print("\n================================================================================================\n")
